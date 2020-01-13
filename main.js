@@ -36,7 +36,7 @@ function gotData(data) {
       name +
       "</span><span class = 'score'>" +
       score +
-      "</span>";
+      "%</span>";
     document.getElementById("Database").appendChild(li); //parent element
   }
 }
